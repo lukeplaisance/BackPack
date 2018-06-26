@@ -21,7 +21,7 @@ public partial class BackPackEditorWindow
                         }
                         else
                         {
-                            isSelected = false;s
+                            isSelected = false;
                             GUI.changed = true;
                         }
                     }
@@ -38,12 +38,13 @@ public partial class BackPackEditorWindow
                     break;
             }
         }
-        public void Draw()
-        {
-            var itemContent = new Rect(itemRect);
-            GUI.Box(itemRect, "Sword");
-            GUILayout.BeginArea(itemContent);
-            GUILayout.EndArea();
-        }
+        //public void Draw()
+        //{
+        //    var Sword = new Item(Strings.SWORD); 
+        //    var itemContent = new Rect(itemRect);
+        //    GUI.Box(itemRect, Sword.Name); 
+        //    GUILayout.BeginArea(itemContent);
+        //    GUILayout.EndArea();
+        //}
     }
 }

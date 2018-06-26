@@ -2,17 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item
+
+[CreateAssetMenu]
+public class Item : ScriptableObject
 {
-    private string _name;
-    public string Name
+    public Sprite image;
+
+    public virtual void Use()
     {
-        get { return _name; }
-        set { _name = value; }
+
     }
 
-    public Item(string name)
-    {
-        Name = name;
-    }
+    //private string _name;
+    //public string Name
+    //{
+    //   get { return _name; }
+    //   set { _name = value; }
+    //}
+
+    //public Item(string name)
+    //{
+    //   Name = name;
+    //}
 }
+

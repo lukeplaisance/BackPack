@@ -3,15 +3,6 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public enum ItemNames
-{
-    Sword,
-    Shield,
-    Gun,
-    HealthKit,
-    Money,
-}
-
 public partial class BackPackEditorWindow : UnityEditor.EditorWindow
 {
     [UnityEditor.MenuItem("Tools/Backpack")]
@@ -22,14 +13,10 @@ public partial class BackPackEditorWindow : UnityEditor.EditorWindow
     }
     public ItemData itemData;
     public System.Collections.Generic.List<Item> items = new System.Collections.Generic.List<Item>();
-    
+
     public void CreateItem()
     {
         items.Add(new Item(Strings.SWORD));
-        items.Add(new Item(Strings.SHIELD));
-        items.Add(new Item(Strings.GUN));
-        items.Add(new Item(Strings.HEALTHKIT));
-        items.Add(new Item(Strings.MONEY));
     }
 
     //public void DeletItem()
@@ -59,4 +46,4 @@ public partial class BackPackEditorWindow : UnityEditor.EditorWindow
                 break;
         }
     }
-}
+//}
