@@ -5,24 +5,23 @@ using UnityEngine;
 public class ItemBehaviour : MonoBehaviour {
 
     public Item item;
+    private Vector3 offset;
 
     private void OnTriggerEnter(Collider other)
     {
-        
-        if(other.CompareTag("Player"))
+
+        if (other.CompareTag("BackPack"))
         {
             var bb = other.GetComponent<BackPackBehaviour>();
             bb.Inventory.Add(item);
         }
     }
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private void OnMouseDown()
+    {
+    }
+    private void OnMouseDrag()
+    {
+
+    }
 }

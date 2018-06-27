@@ -18,5 +18,4 @@ public class BackPack : ScriptableObject
     {
         items.Remove(item);
     }
-	
 }

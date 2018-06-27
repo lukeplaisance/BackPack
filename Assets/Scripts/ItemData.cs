@@ -4,7 +4,7 @@ public partial class BackPackEditorWindow
 {
     public class ItemData
     {
-        Item item;
+        GameObject gameObject;
         public Rect itemRect = new UnityEngine.Rect(x: 25, y: 25, width: 150, height: 150);
         public bool isSelected = false;
         public void PollEvents()
@@ -38,13 +38,6 @@ public partial class BackPackEditorWindow
                     break;
             }
         }
-        //public void Draw()
-        //{
-        //    var Sword = new Item(Strings.SWORD); 
-        //    var itemContent = new Rect(itemRect);
-        //    GUI.Box(itemRect, Sword.Name); 
-        //    GUILayout.BeginArea(itemContent);
-        //    GUILayout.EndArea();
-        //}
+        
     }
 }

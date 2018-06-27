@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212757705501849044}
   - component: {fileID: 114844805601765476}
   - component: {fileID: 61090235057021442}
+  - component: {fileID: 114866895423892880}
   m_Layer: 0
   m_Name: Antidote
   m_TagString: Item
@@ -79,6 +80,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
+--- !u!114 &114866895423892880
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1967648870057484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d040ea8eb998d14e9456e3f497f84e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212757705501849044
 SpriteRenderer:
   m_ObjectHideFlags: 1
