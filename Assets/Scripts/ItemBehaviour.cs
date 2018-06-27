@@ -7,12 +7,17 @@ public class ItemBehaviour : MonoBehaviour {
     public Item item;
     private Vector3 offset;
 
-    private void OnTriggerEnter(Collider other)
+    private void Update()
     {
+        var a = 1;
+    }
 
-        if (other.CompareTag("BackPack"))
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("BackPack"))
         {
-            var bb = other.GetComponent<BackPackBehaviour>();
+            Debug.Log("backpacked");
+            var bb = other.gameObject.GetComponent<BackPackBehaviour>();
             bb.Inventory.Add(item);
         }
     }

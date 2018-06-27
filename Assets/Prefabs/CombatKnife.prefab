@@ -9,36 +9,36 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1559616160476858}
+  m_RootGameObject: {fileID: 1335802635877384}
   m_IsPrefabParent: 1
---- !u!1 &1559616160476858
+--- !u!1 &1335802635877384
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 224793424309394704}
-  - component: {fileID: 222779069930283758}
-  - component: {fileID: 114582433868226336}
-  - component: {fileID: 61969550707763606}
-  - component: {fileID: 114457857606990134}
-  - component: {fileID: 114760948105919808}
-  - component: {fileID: 50725301422748914}
+  - component: {fileID: 224400591019766444}
+  - component: {fileID: 222644908959064654}
+  - component: {fileID: 114110956965928762}
+  - component: {fileID: 61377790930538936}
+  - component: {fileID: 114666735181344214}
+  - component: {fileID: 114060418121764028}
+  - component: {fileID: 50235926449526004}
   m_Layer: 0
-  m_Name: BarettaM9
+  m_Name: CombatKnife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &50725301422748914
+--- !u!50 &50235926449526004
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1559616160476858}
+  m_GameObject: {fileID: 1335802635877384}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -46,18 +46,18 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &61969550707763606
+--- !u!61 &61377790930538936
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1559616160476858}
+  m_GameObject: {fileID: 1335802635877384}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -77,24 +77,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100, y: 100}
   m_EdgeRadius: 0
---- !u!114 &114457857606990134
+--- !u!114 &114060418121764028
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1559616160476858}
+  m_GameObject: {fileID: 1335802635877384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 161a1db78d599814cbcd0792ae58df22, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d040ea8eb998d14e9456e3f497f84e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: 76782c2978fbc4d48b3793ffc4633d4a, type: 2}
---- !u!114 &114582433868226336
+--- !u!114 &114110956965928762
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1559616160476858}
+  m_GameObject: {fileID: 1335802635877384}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -108,7 +107,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 09337b52bf8e68742b88cc62efa9b6dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4046bee0d51c2a244a55042a8b28c50f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -116,30 +115,31 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114760948105919808
+--- !u!114 &114666735181344214
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1559616160476858}
+  m_GameObject: {fileID: 1335802635877384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d040ea8eb998d14e9456e3f497f84e4, type: 3}
+  m_Script: {fileID: 11500000, guid: 161a1db78d599814cbcd0792ae58df22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!222 &222779069930283758
+  item: {fileID: 11400000, guid: 41c153548460dd34380ad6d15d10e281, type: 2}
+--- !u!222 &222644908959064654
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1559616160476858}
---- !u!224 &224793424309394704
+  m_GameObject: {fileID: 1335802635877384}
+--- !u!224 &224400591019766444
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1559616160476858}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 1335802635877384}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -148,6 +148,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: 0}
+  m_AnchoredPosition: {x: -175, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
