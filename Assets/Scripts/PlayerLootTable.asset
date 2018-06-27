@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Name: PlayerLootTable
   m_EditorClassIdentifier: 
   items:
-  - {fileID: 11400000, guid: 041442c1814f069479b9505baf122679, type: 2}
-  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
-  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
-  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
-  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
-  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
-  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
-  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
-  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

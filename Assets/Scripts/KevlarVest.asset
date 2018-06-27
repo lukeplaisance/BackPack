@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 672ed7410e2f15547ac092dfeed1e3d9, type: 3}
   m_Name: KevlarVest
   m_EditorClassIdentifier: 
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 5bd9d0a3beb483d4ea8ddf35667311c2, type: 3}
