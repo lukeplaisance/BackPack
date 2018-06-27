@@ -7,15 +7,20 @@ using UnityEditor;
 public class BackPack : ScriptableObject
 {
     [SerializeField]
-    private List<Item> items;
+    private List<Item> _items;
+
+    public List<Item> Items
+    {
+        get { return _items; }
+    }
 
     public void Add(Item item)
     {
-        items.Add(item);
+        Items.Add(item);
     }
 
     public void Remove(Item item)
     {
-        items.Remove(item);
+        Items.Remove(item);
     }
 }

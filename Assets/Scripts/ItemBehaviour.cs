@@ -5,7 +5,6 @@ using UnityEngine;
 public class ItemBehaviour : MonoBehaviour {
 
     public Item item;
-    private Vector3 offset;
 
     private void Update()
     {

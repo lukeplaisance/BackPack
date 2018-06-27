@@ -11,21 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 739f25dbf02d56946ab76cc3fc6e2099, type: 3}
   m_Name: New Back Pack
   m_EditorClassIdentifier: 
-  items:
-  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
-  - {fileID: 11400000, guid: 76782c2978fbc4d48b3793ffc4633d4a, type: 2}
-  - {fileID: 11400000, guid: 2a31d0422fbc2d547b5b2b0b2a4c1ee9, type: 2}
-  - {fileID: 11400000, guid: 41c153548460dd34380ad6d15d10e281, type: 2}
-  - {fileID: 11400000, guid: c09862ce285c72a4a8c9a0833d875220, type: 2}
-  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
-  - {fileID: 11400000, guid: 2a31d0422fbc2d547b5b2b0b2a4c1ee9, type: 2}
-  - {fileID: 11400000, guid: 2a31d0422fbc2d547b5b2b0b2a4c1ee9, type: 2}
-  - {fileID: 11400000, guid: 2a31d0422fbc2d547b5b2b0b2a4c1ee9, type: 2}
-  - {fileID: 11400000, guid: 2a31d0422fbc2d547b5b2b0b2a4c1ee9, type: 2}
-  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
-  - {fileID: 11400000, guid: 2a31d0422fbc2d547b5b2b0b2a4c1ee9, type: 2}
-  - {fileID: 11400000, guid: 41c153548460dd34380ad6d15d10e281, type: 2}
-  - {fileID: 11400000, guid: c09862ce285c72a4a8c9a0833d875220, type: 2}
-  - {fileID: 11400000, guid: 41c153548460dd34380ad6d15d10e281, type: 2}
-  - {fileID: 11400000, guid: 41c153548460dd34380ad6d15d10e281, type: 2}
-  - {fileID: 11400000, guid: c09862ce285c72a4a8c9a0833d875220, type: 2}
+  _items: []
