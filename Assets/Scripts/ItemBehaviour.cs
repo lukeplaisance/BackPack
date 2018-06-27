@@ -11,8 +11,8 @@ public class ItemBehaviour : MonoBehaviour {
         
         if(other.CompareTag("Player"))
         {
-            var gb = other.GetComponent<GoblinBehaviour>();
-            gb.LootTable.Add(item);
+            var bb = other.GetComponent<BackPackBehaviour>();
+            bb.Inventory.Add(item);
         }
     }
 

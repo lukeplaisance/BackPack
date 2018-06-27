@@ -14,10 +14,10 @@ public partial class BackPackEditorWindow : UnityEditor.EditorWindow
     public ItemData itemData;
     public System.Collections.Generic.List<Item> items = new System.Collections.Generic.List<Item>();
 
-    public void CreateItem()
-    {
-        items.Add(new Item(Strings.SWORD));
-    }
+    //public void CreateItem()
+    //{
+    //    items.Add(new Item(Strings.SWORD));
+    //}
 
     //public void DeletItem()
     //{
@@ -26,11 +26,11 @@ public partial class BackPackEditorWindow : UnityEditor.EditorWindow
 
     private void OnGUI()
     {
-        foreach (var item in items)
-        {
-            itemData.Draw();
-            itemData.PollEvents();
-        }
+        //foreach (var item in items)
+        //{
+        //    itemData.Draw();
+        //    itemData.PollEvents();
+        //}
         Repaint();
 
         switch (Event.current.type)
@@ -39,11 +39,11 @@ public partial class BackPackEditorWindow : UnityEditor.EditorWindow
                 if (Event.current.button == 1)
                 {
                     var gm = new UnityEditor.GenericMenu();
-                    gm.AddItem(new GUIContent("Create Item"), false, CreateItem);
+                    //gm.AddItem(new GUIContent("Create Item"), false, CreateItem);
                     //gm.AddItem(new GUIContent("Delete Item"), false, DeletItem);
                     gm.ShowAsContext();
                 }
                 break;
         }
     }
-//}
+}

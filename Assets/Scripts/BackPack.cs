@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CreateAssetMenu(menuName ="LootTable")]
-public class GoblinLoot : ScriptableObject
+[CreateAssetMenu(menuName ="BackPack")]
+public class BackPack : ScriptableObject
 {
     [SerializeField]
     private List<Item> items;

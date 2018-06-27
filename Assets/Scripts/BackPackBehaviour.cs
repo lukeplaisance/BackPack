@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GoblinBehaviour : MonoBehaviour
+public class BackPackBehaviour : MonoBehaviour
 {
-    public GoblinLoot LootTable;
+    public BackPack Inventory;
 
 	// Use this for initialization
 	void Start () {
