@@ -1,15 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class ItemBehaviour : MonoBehaviour {
+public class ItemBehaviour : MonoBehaviour
+{
 
     public Item item;
-
-    private void Update()
-    {
-        var a = 1;
-    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -19,13 +17,5 @@ public class ItemBehaviour : MonoBehaviour {
             var bb = other.gameObject.GetComponent<BackPackBehaviour>();
             bb.Inventory.Add(item);
         }
-    }
-
-    private void OnMouseDown()
-    {
-    }
-    private void OnMouseDrag()
-    {
-
     }
 }
