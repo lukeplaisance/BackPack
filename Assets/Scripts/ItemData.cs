@@ -1,10 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System;
 
-public class ItemData : MonoBehaviour
+[Serializable]
+public class ItemData
 {
-    public BackPack Inventory;
-    public string SaveToString()
-    {
-        return JsonUtility.ToJson(Inventory);
-    }
+    public Vector2 pos;
 }

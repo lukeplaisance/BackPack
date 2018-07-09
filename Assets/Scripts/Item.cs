@@ -7,5 +7,6 @@ using System;
 public class Item : ScriptableObject
 {
     public Sprite image;
+    public Vector2 pos;
 }
 

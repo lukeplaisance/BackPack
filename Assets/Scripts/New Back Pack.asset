@@ -11,4 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 739f25dbf02d56946ab76cc3fc6e2099, type: 3}
   m_Name: New Back Pack
   m_EditorClassIdentifier: 
-  _items: []
+  _items:
+  - {fileID: 11400000, guid: e9740061083e1844fa59aa811f067f80, type: 2}
